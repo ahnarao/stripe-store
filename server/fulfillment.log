@@ -1,0 +1,118 @@
+INFO:root:starting server...
+INFO:werkzeug: * Running on http://0.0.0.0:4242/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:12:02] "[37mGET /public-key HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:12:02] "[37mGET /product-details HTTP/1.1[0m" 200 -
+INFO:stripe:message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+INFO:stripe:message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:12:02] "[37mPOST /create-payment-intent HTTP/1.1[0m" 200 -
+INFO:root:💰 Payment received! Fulfill order.
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:14:36] "[37mPOST /webhook HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:14:36] "[37mPOST /webhook HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:22:06] "[37mGET /public-key HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:22:07] "[37mGET /product-details HTTP/1.1[0m" 200 -
+INFO:stripe:message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+INFO:stripe:message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:22:07] "[37mPOST /create-payment-intent HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:22:07] "[37mPOST /webhook HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:23:16] "[37mGET /public-key HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:23:16] "[37mGET /product-details HTTP/1.1[0m" 200 -
+INFO:stripe:message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+INFO:stripe:message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:23:16] "[37mPOST /create-payment-intent HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:23:17] "[37mPOST /webhook HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:24:33] "[37mGET /public-key HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:24:33] "[37mGET /product-details HTTP/1.1[0m" 200 -
+INFO:stripe:message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+INFO:stripe:message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:24:33] "[37mPOST /create-payment-intent HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:24:34] "[37mPOST /webhook HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:24:38] "[37mGET /public-key HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:24:38] "[37mGET /product-details HTTP/1.1[0m" 200 -
+INFO:stripe:message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+INFO:stripe:message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:24:39] "[37mPOST /create-payment-intent HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:24:39] "[37mPOST /webhook HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:26:43] "[37mGET /public-key HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:26:43] "[37mGET /public-key HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:26:43] "[37mGET /product-details HTTP/1.1[0m" 200 -
+INFO:stripe:message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:26:43] "[37mGET /product-details HTTP/1.1[0m" 200 -
+INFO:stripe:message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+INFO:stripe:message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:26:43] "[37mPOST /create-payment-intent HTTP/1.1[0m" 200 -
+INFO:stripe:message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:26:43] "[37mPOST /create-payment-intent HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:26:44] "[37mPOST /webhook HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:26:44] "[37mPOST /webhook HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:27:06] "[37mGET /public-key HTTP/1.1[0m" 200 -
+INFO:stripe:message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:27:07] "[37mGET /product-details HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:27:07] "[37mGET /public-key HTTP/1.1[0m" 200 -
+INFO:stripe:message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:27:07] "[37mPOST /create-payment-intent HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:27:07] "[37mGET /product-details HTTP/1.1[0m" 200 -
+INFO:stripe:message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:27:07] "[37mPOST /webhook HTTP/1.1[0m" 200 -
+INFO:stripe:message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:27:07] "[37mPOST /create-payment-intent HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:27:08] "[37mPOST /webhook HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:48:35] "[37mGET /public-key HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:48:35] "[37mGET /product-details HTTP/1.1[0m" 200 -
+INFO:stripe:message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+INFO:stripe:message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:48:35] "[37mPOST /create-payment-intent HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:48:36] "[37mPOST /webhook HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:49:18] "[37mGET /public-key HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:49:18] "[37mGET /product-details HTTP/1.1[0m" 200 -
+INFO:stripe:message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+INFO:stripe:message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:49:19] "[37mPOST /create-payment-intent HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:49:19] "[37mPOST /webhook HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:59:08] "[37mGET /public-key HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:59:08] "[37mGET /product-details HTTP/1.1[0m" 200 -
+INFO:stripe:message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+INFO:stripe:message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:59:08] "[37mPOST /create-payment-intent HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 09:59:09] "[37mPOST /webhook HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 10:01:49] "[37mGET /public-key HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 10:01:50] "[37mGET /product-details HTTP/1.1[0m" 200 -
+INFO:stripe:message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+INFO:stripe:message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 10:01:50] "[37mPOST /create-payment-intent HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 10:01:50] "[37mPOST /webhook HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 10:02:02] "[37mGET /public-key HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 10:02:02] "[37mGET /product-details HTTP/1.1[0m" 200 -
+INFO:stripe:message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+INFO:stripe:message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 10:02:03] "[37mPOST /create-payment-intent HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 10:02:03] "[37mPOST /webhook HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 10:02:18] "[37mGET /public-key HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 10:02:19] "[37mGET /product-details HTTP/1.1[0m" 200 -
+INFO:stripe:message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+INFO:stripe:message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 10:02:19] "[37mPOST /create-payment-intent HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 10:02:19] "[37mPOST /webhook HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 10:02:55] "[37mGET /public-key HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 10:02:55] "[37mGET /product-details HTTP/1.1[0m" 200 -
+INFO:stripe:message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+INFO:stripe:message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 10:02:55] "[37mPOST /create-payment-intent HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 10:02:56] "[37mPOST /webhook HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 10:05:25] "[37mGET /public-key HTTP/1.1[0m" 200 -
+INFO:stripe:message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 10:05:25] "[37mGET /product-details HTTP/1.1[0m" 200 -
+INFO:stripe:message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 10:05:25] "[37mPOST /create-payment-intent HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 10:05:25] "[37mPOST /webhook HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 10:13:18] "[37mGET /public-key HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 10:13:18] "[37mGET /product-details HTTP/1.1[0m" 200 -
+INFO:stripe:message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+INFO:stripe:message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 10:13:18] "[37mPOST /create-payment-intent HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 10:13:19] "[37mPOST /webhook HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 10:24:10] "[37mGET /public-key HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 10:24:10] "[37mGET /product-details HTTP/1.1[0m" 200 -
+INFO:stripe:message='Request to Stripe api' method=post path=https://api.stripe.com/v1/payment_intents
+INFO:stripe:message='Stripe API response' path=https://api.stripe.com/v1/payment_intents response_code=200
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 10:24:10] "[37mPOST /create-payment-intent HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Nov/2020 10:24:11] "[37mPOST /webhook HTTP/1.1[0m" 200 -
