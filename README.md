@@ -4,6 +4,8 @@ This site is built using React and uses the [Payment Intents API](https://stripe
 
 # How to run locally
 
+Clone and configure this project.
+
 To run this locally you need to start both a local dev server for the client and a back end server. Instructions are below.
 
 Additionally you will need a Stripe account in order to run the demo. Once you set up your account, go to the Stripe [developer dashboard](https://stripe.com/docs/development/quickstart#api-keys) to find your API keys. You will need to add those API keys to the .env file. Don't worry about adding the webhook yet, that value will be returned when you set up listening.
