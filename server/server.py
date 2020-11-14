@@ -99,6 +99,6 @@ def webhook_received():
     #Logging
 
 if __name__== '__main__':
-    logging.basicConfig(filename='fulfillment.log', level=logging.INFO, filemode='w')
+    logging.basicConfig(filename='fulfillment.log', level=logging.INFO)
     logging.info("starting server...")
     app.run(host='0.0.0.0', port=4242)

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { CardElement, useStripe, useElements } from "@stripe/react-stripe-js";
+import {Elements} from "@stripe/react-stripe-js";
 import "./CheckoutForm.css";
 import api from "../api";
 
@@ -65,10 +65,6 @@ export default function CheckoutForm() {
     return (
       <div className="sr-field-success message">
         <h1>Thank you for your order! Your Crystals are on the way.</h1>
-        <p>View PaymentIntent response:</p>
-        <pre className="sr-callout">
-          <code>{JSON.stringify(metadata, null, 2)}</code>
-        </pre>
       </div>
     );
   };
@@ -94,13 +90,13 @@ export default function CheckoutForm() {
 
     return (
       <form onSubmit={handleSubmit}>
-        <h1>Energy Crystal Starter Pack</h1>
-        <h3>
+        <h1>Energy Crystals</h1>
+        <h1>
           {currency.toLocaleUpperCase()}{" "}
           {amount.toLocaleString(navigator.language, {
             minimumFractionDigits: 2,
           })}{" "}
-        </h3>
+        </h1>
         <h4>Manifest your best self</h4>
 
         <div className="sr-combo-inputs">
