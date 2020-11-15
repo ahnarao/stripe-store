@@ -35,9 +35,8 @@ Follow the [installation steps](https://github.com/stripe/stripe-cli#installatio
 
 1. Run `Stripe Status` to check that the Stripe CLI is set up properly
 2. Run `Stripe login` (you will be prompted to connect your account)
-3. Run `stripe listen --forward-to localhost:4242/webhook`
+3. Run `stripe listen --forward-to localhost:4242/webhook` and a webhook url will be returned
 4. Add the webhook url to the .env file
-5. Go to https://stripe.com/docs/payments/accept-a-payment?integration=elements#web-test-integration to run the 3 integration tests
 
 ### Buying crystals
 
