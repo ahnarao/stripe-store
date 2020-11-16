@@ -1,6 +1,6 @@
 # Features
 
-This site is built using React and uses the [Payment Intents API](https://stripe.com/docs/payments/payment-intents) to collect credit card information. The fullfillment.log file captures all attempts as well as orders to fulfill.
+This site is built using React and uses the [Payment Intents API](https://stripe.com/docs/payments/payment-intents) to collect credit card information. The fullfillment.log file captures all orders to fulfill. Note that it does refresh each time you restart the server (in order to allow you to test with a clean log file).
 
 # How to run locally
 
@@ -42,12 +42,12 @@ Follow the [installation steps](https://github.com/stripe/stripe-cli#installatio
 
 When running both servers, you are now ready to use the app running in [http://localhost:3000](http://localhost:3000).
 
-1. Enter your name and card details (test cards are here: https://stripe.com/docs/payments/accept-a-payment?integration=elements#web-test-integration )
+1. Enter your name and card details (Test card number 4242424242424242 with a future expiry date)
 1. Hit "Pay"
 1. 🎉
 
 ### Run integration tests
 1. Navigate to this page: https://stripe.com/docs/payments/accept-a-payment?integration=elements#web-test-integration
 2. Ensure you are logged in to your Stripe account
-3. Note the 3 test credit cards, follow the steps above to enter your name and each of the card details and click submit
+3. Note the 3 test credit cards in the test integration section, follow the steps above to enter your name and each of the card details and click submit
 4. Click "check payments" on the stripe test page
