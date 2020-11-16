@@ -19,13 +19,13 @@ STRIPE_SECRET_KEY=<replace-with-your-secret-key>
 
 1. Create and activate a new virtual environment:`python3 -m venv /path/to/new/virtual/environment`
 2. Activate a new virtual environment: `source /path/to/new/virtual/environment/venv/bin/activate`
-2. Go to `/server`
+2. Go to `server/`
 3. Run `pip install -r requirements.txt` to install dependencies
 4. Run `python3 server.py`
 
 ### Running the React client
 
-1. Go to `/client`
+1. Go to `client/`
 1. Run `yarn`
 1. Run `yarn start` and your default browser should now open with the front-end being served from `http://localhost:3000/`.
 
@@ -35,9 +35,8 @@ Follow the [installation steps](https://github.com/stripe/stripe-cli#installatio
 
 1. Run `Stripe Status` to check that the Stripe CLI is set up properly
 2. Run `Stripe login` (you will be prompted to connect your account)
-3. Run `stripe listen --forward-to localhost:4242/webhook`
+3. Run `stripe listen --forward-to localhost:4242/webhook` and a webhook url will be returned
 4. Add the webhook url to the .env file
-5. Go to https://stripe.com/docs/payments/accept-a-payment?integration=elements#web-test-integration to run the 3 integration tests
 
 ### Buying crystals
 
