@@ -54,9 +54,8 @@ def post_payment_intent():
     
     # Create a PaymentIntent with the order amount and currency
     payment_intent = stripe.PaymentIntent.create(**options,
-     # Verify the PaymentIntent integration with tests
-    metadata={'integration_check': 'accept_a_payment'}
-    )
+     # Add Metadata
+    metadata={'integration_check':'accept_a_payment'})
 
     try:
         return jsonify(payment_intent)
@@ -88,7 +87,7 @@ def webhook_received():
 
     if event_type == 'payment_intent.succeeded':
         # Handle the payment intent succeeded event and fulfill the order
-        logging.info("💰 Payment received! Fulfill order.")
+        logging.info("💰 Payment received! Fulfill the order.")
 
     if event_type == 'payment_intent.payment_failed':
         #Notify the customer that their order was not fulfilled
@@ -99,6 +98,8 @@ def webhook_received():
     #Logging
 
 if __name__== '__main__':
-    logging.basicConfig(filename='fulfillment.log', level=logging.INFO)
+    logging.basicConfig(filename='fulfillment.log', level=logging.INFO, filemode='w')
+    logging.getLogger('stripe').setLevel(logging.CRITICAL)
+    logging.getLogger('werkzeug').setLevel(logging.CRITICAL)
     logging.info("starting server...")
     app.run(host='0.0.0.0', port=4242)
