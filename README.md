@@ -19,13 +19,13 @@ STRIPE_SECRET_KEY=<replace-with-your-secret-key>
 
 1. Create and activate a new virtual environment:`python3 -m venv /path/to/new/virtual/environment`
 2. Activate a new virtual environment: `source /path/to/new/virtual/environment/venv/bin/activate`
-2. Go to `/server`
+2. Go to `server/`
 3. Run `pip install -r requirements.txt` to install dependencies
 4. Run `python3 server.py`
 
 ### Running the React client
 
-1. Go to `/client`
+1. Go to `client/`
 1. Run `yarn`
 1. Run `yarn start` and your default browser should now open with the front-end being served from `http://localhost:3000/`.
 
